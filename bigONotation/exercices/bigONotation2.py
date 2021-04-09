@@ -26,4 +26,4 @@ worstCaseScenarioInput = 1000
 
 anotherFunChallenge(worstCaseScenarioInput)
 
-# Big O Notation: O(7 + 7n) = O(n)
+# Big O Notation: O(6 + 7n) = O(n)
