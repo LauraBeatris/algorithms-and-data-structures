@@ -16,10 +16,10 @@ def funChallenge(input):
     
     return a # O(1)
 
-bestCaseScenarioInputSize = [1]
-averageCaseScenarioInputSize = [1] * 10
-worstCaseScenearioInputSize = [1] * 1000
+bestCaseScenarioInput = [1]
+averageCaseScenarioInput = [1] * 10
+worstCaseScenarioInput = [1] * 1000
 
-funChallenge(worstCaseScenearioInputSize) 
+funChallenge(worstCaseScenarioInput) 
 
 # Big O Notation: O(3 + 4n) = O(n)
