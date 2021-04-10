@@ -2,6 +2,8 @@
 === Big O Notations Rules - Worst Case === 
 
 Big O is care more about the worst case scenario, but we can also think about best & average cases.
+
+Programmers typically solve for the worst-case scenario, Big O (Because we are not expecting our algorithm to run in the best or even average cases.)
 """
 
 companiesList = ['twitter', 'spotify', 'tiktok', 'tinder', 'google']
