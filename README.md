@@ -3,9 +3,9 @@
 </p>
 
 ## Big O Notation 
-- Describes how the time is taken, or memory is used, by a program scales with the amount of data it has to work on
-- Helps us to measure the scalability of our code
-- A way to indicate complexities (Space Complexity & Time Complexity)
+> Describes how the time is taken, or memory is used, by a program scales with the amount of data it has to work on <br>
+> Helps us to measure the scalability of our code <br>
+> A way to indicate complexities (Space Complexity & Time Complexity)
 
 - [Exercises](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/exercises)
 - [Cheat Sheet](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/bigOCheatSheet.pdf)
