@@ -1,4 +1,6 @@
 """
+=== Big O Notations Rules - Worst Case === 
+
 Big O is care more about the worst case scenario, but we can also think about best & average cases.
 """
 
@@ -6,7 +8,7 @@ companiesList = ['twitter', 'spotify', 'tiktok', 'tinder', 'google']
 companiesLargeList = ['facebook'] * 100000
 companiesLargeList.append('twitter')
 
-def findTwitter(companies): 
+def findTwitter(companies): # Big O = O(n) 
     for company in companies:
         if company != 'twitter': continue 
 
@@ -16,8 +18,6 @@ def findTwitter(companies):
 findTwitter(companiesLargeList)
 
 """
-Big O Notation of findTwitter: O(n) - Linear time (Always based on the worst case scenario)
-
 === Why Linear time? === 
 
 Because the worst-case scenario would be, for instance, an array of one million items with twitter as the last item
