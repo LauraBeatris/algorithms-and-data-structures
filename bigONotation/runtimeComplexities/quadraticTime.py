@@ -19,7 +19,7 @@ def logAllArrayPairs(array): # O(n^2)
 
     firstPairElementIndex += 1
 
-def compressBoxesTwice(boxes1, boxes2): # O(a^b)
+def compressBoxesTwice(boxes1, boxes2): # O(a*b)
   for box in boxes1: 
     print(f'Compress {box}') 
 
