@@ -4,6 +4,7 @@
 
 ## Big O Notation
 - [Exercises](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/exercises)
+- [Cheat Sheet](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/bigOCheatSheet.pdf)
 
 ### Runtime Complexities
 - [Linear Time - O(n)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/runtimeComplexities/linearTime.py)
