@@ -10,4 +10,5 @@
 - [Constant Time - O(1)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/runtimeComplexities/constantTime.py)
 
 ### Rules
+- [Worst Case](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/runtimeComplexities/worstCase.py)
 - [Remove Constants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/removeConstants.py)

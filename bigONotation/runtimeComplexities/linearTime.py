@@ -7,21 +7,12 @@ def findTwitter(companies):
         if company != 'twitter': continue 
 
         print('Found twitter')
-        break # Breaking the loop doesn't matter for the worst case scenerio because it's already the last loop
+        break # Breaking the loop doesn't matter for the worst case scenario because it's already the last loop
 
 findTwitter(companiesLargeList)
 
 """
-Big O Notation of findTwitter: O(n) - Linear time (Always based on the worst case scenario)
-
-- Best case: Constant time (Twitter is the first item of the companies list)
-- Average case: Linear time (Twitter is in the middle of the companies list)
-- Worst case: Linear time (Twitter is the last item of the companies list)
-
-=== Why Linear time? === 
-
-Because the worst-case scenario would be, for instance, an array of one million items with twitter as the last item
-and the number of operations executed would increase linearly according to the input size 
+Big O Notation of findTwitter: O(n) - Linear time 
 
 === What's the Bio O Notation for Linear time? === 
 
