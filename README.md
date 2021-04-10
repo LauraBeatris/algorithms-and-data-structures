@@ -17,6 +17,10 @@
 - [Constant Time - O(1)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/timeComplexities/constantTime.py)
 - [Quadratic Time - O(n^2)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/timeComplexities/quadraticTime.py)
 
+### Space Complexities
+- [Linear Space - O(n)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/spaceComplexities/linearSpace.py)
+- [Constant Space - O(1)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/spaceComplexities/constantSpace.py)
+
 ### Rules
 - [Worst Case](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/worstCase.py)
 - [Remove Constants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/removeConstants.py)
