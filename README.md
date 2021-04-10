@@ -9,20 +9,20 @@
 
 > Big O is a way to indicate complexities (Space Complexity & Time Complexity)
 
-- [Exercises](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/exercises)
-- [Cheat Sheet](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/bigOCheatSheet.pdf)
+- [Exercises](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/exercises)
+- [Cheat Sheet](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/big_o_cheat_sheet.pdf)
 
 ### Time Complexity
-- [Linear Time - O(n)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/timeComplexity/linearTime.py)
-- [Constant Time - O(1)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/timeComplexity/constantTime.py)
-- [Quadratic Time - O(n^2)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/timeComplexity/quadraticTime.py)
+- [Linear Time - O(n)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/time_complexity/linear_time.py)
+- [Constant Time - O(1)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/time_complexity/constant_time.py)
+- [Quadratic Time - O(n^2)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/time_complexity/quadratic_time.py)
 
 ### Space Complexity
-- [Linear Space - O(n)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/spaceComplexity/linearSpace.py)
-- [Constant Space - O(1)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/spaceComplexity/constantSpace.py)
+- [Linear Space - O(n)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/space_complexity/linear_space.py)
+- [Constant Space - O(1)](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/space_complexity/constant_space.py)
 
 ### Rules
-- [Worst Case](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/worstCase.py)
-- [Remove Constants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/removeConstants.py)
-- [Different Terms for Inputs](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/differentTermsForInputs.py)
-- [Drop Non Dominants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/dropNonDominants.py)
+- [Worst Case](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/rules/worst_case.py)
+- [Remove Constants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/rules/remove_constants.py)
+- [Different Terms for Inputs](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/rules/different_terms_for_inputs.py)
+- [Drop Non Dominants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/big_o_notation/rules/drop_non_dominants.py)
