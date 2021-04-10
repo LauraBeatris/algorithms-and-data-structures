@@ -14,3 +14,4 @@
 - [Worst Case](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/runtimeComplexities/worstCase.py)
 - [Remove Constants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/removeConstants.py)
 - [Different Terms for Inputs](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/differentTermsForInputs.py)
+- [Drop Non Dominants](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/bigONotation/rules/dropNonDominants.py)
