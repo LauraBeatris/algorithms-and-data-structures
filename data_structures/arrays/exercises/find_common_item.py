@@ -18,22 +18,14 @@ def find_common_item_1(list1, list2):
 
   return False    
 
-def transform_list_hash_map(list1):
-  list_hash_map = dict()
-
-  for index, value in enumerate(list1):
-    list_hash_map[value] = index
-  
-  return list_hash_map
-
 # Better Solution regarding Time Complexity
 # Time Complexity: O(a + b)
 # Space Complexity: O(a)
 def find_common_2(list1, list2): 
-  list1_hash_map = transform_list_hash_map(list1)
+  list1_set = set(list1)
 
   for item in list2:
-    if item in list1_hash_map: return True
+    if item in list1_set: return True
 
   return False    
 
