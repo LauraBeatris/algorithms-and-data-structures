@@ -29,6 +29,9 @@
 
 
 # Data Structures
+> A data structure is a specialized format for organizing, processing, retrieving and storing data.
+
+> A data structure is a way of organizing the data so that it can be used efficiently. 
 
 ## Arrays
 
