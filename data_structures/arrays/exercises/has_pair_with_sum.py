@@ -11,7 +11,7 @@ sum_input = 8
 
 """ 
 ==== BRUTE FORCE SOLUTION ====
-- Time Complexity: O(a*b)
+- Time Complexity: O(n^2) 
 - Space Complexity: O(1)
 """
 def hasPairWithSum1(numbersList, sum): 
