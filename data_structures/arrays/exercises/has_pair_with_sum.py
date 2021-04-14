@@ -31,7 +31,6 @@ def hasPairWithSum2(numbersList, sum):
   sum_complement_set = set([])
 
   for number in numbersList: 
-    print(sum_complement_set)
     if number in sum_complement_set: return True
 
     sum_complement_set.add(sum - number)
