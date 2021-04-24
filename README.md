@@ -36,3 +36,4 @@
 ## Arrays
 
 - [Exercises](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/data_structures/arrays/exercises)
+- [Operations](https://github.com/LauraBeatris/algorithms-and-data-structures/tree/main/data_structures/arrays/arrays_operations.py)
