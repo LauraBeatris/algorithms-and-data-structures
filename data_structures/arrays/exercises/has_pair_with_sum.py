@@ -14,7 +14,7 @@ sum_input = 8
 - Time Complexity: O(n^2) 
 - Space Complexity: O(1)
 """
-def hasPairWithSum1(numbersList, targetSum): 
+def has_pair_with_sum_1(numbersList, targetSum): 
   for number1 in numbersList: 
     for number2 in numbersList[1:]:
       if (number1 + number2) == targetSum:
@@ -27,7 +27,7 @@ def hasPairWithSum1(numbersList, targetSum):
 - Time Complexity: O(n)
 - Space Complexity: O(n)
 """
-def hasPairWithSum2(numbersList, targetSum): 
+def has_pair_with_sum_2(numbersList, targetSum): 
   sum_complement_set = set([])
 
   for number in numbersList: 
@@ -37,5 +37,5 @@ def hasPairWithSum2(numbersList, targetSum):
 
   return False 
 
-print(hasPairWithSum2(list_with_pair_sum, sum_input))
-print(hasPairWithSum2(list_without_pair_sum, sum_input))
+print(has_pair_with_sum_2(list_with_pair_sum, sum_input))
+print(has_pair_with_sum_2(list_without_pair_sum, sum_input))
