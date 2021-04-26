@@ -34,12 +34,12 @@ def two_sum1(nums, target):
 - Space Complexity: O(1)
 """
 def two_sum2(nums, target):
-  nums_range = range(len(nums))
+  length = len(nums)
 
-  for i in nums_range:
+  for i in  range(length):
     num1 = nums[i]
 
-    for j in nums_range[1:]:
+    for j in range(i + 1, length):
       num2 = nums[j]
 
       if num1 + num2 == target:
