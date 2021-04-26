@@ -14,10 +14,10 @@ sum_input = 8
 - Time Complexity: O(n^2) 
 - Space Complexity: O(1)
 """
-def hasPairWithSum1(numbersList, sum): 
+def hasPairWithSum1(numbersList, targetSum): 
   for number1 in numbersList: 
     for number2 in numbersList[1:]:
-      if (number1 + number2) == sum:
+      if (number1 + number2) == targetSum:
         return True 
 
   return False 
@@ -27,13 +27,13 @@ def hasPairWithSum1(numbersList, sum):
 - Time Complexity: O(n)
 - Space Complexity: O(n)
 """
-def hasPairWithSum2(numbersList, sum): 
+def hasPairWithSum2(numbersList, targetSum): 
   sum_complement_set = set([])
 
   for number in numbersList: 
     if number in sum_complement_set: return True
 
-    sum_complement_set.add(sum - number)
+    sum_complement_set.add(targetSum - number)
 
   return False 
 
