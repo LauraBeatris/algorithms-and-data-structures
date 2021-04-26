@@ -18,12 +18,11 @@ class Array:
     return lastItem
 
   def unshift(self, item):
-    i = 0
-    previousData = self.data.copy()
+    i = self.length - 1
 
-    while i < self.length:
-      self.data[i + 1] = previousData.get(i)
-      i += 1
+    while i >= 0:
+      self.data[i + 1] = self.data.get(i)
+      i -= 1
     
     self.data[0] = item
     self.length += 1
